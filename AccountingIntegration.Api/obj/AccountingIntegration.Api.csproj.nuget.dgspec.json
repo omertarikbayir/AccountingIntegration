@@ -1,0 +1,310 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\ForGit\\AccountingIntegration\\AccountingIntegration.Api\\AccountingIntegration.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\ForGit\\AccountingIntegration\\AccountingIntegration.Api\\AccountingIntegration.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ForGit\\AccountingIntegration\\AccountingIntegration.Api\\AccountingIntegration.Api.csproj",
+        "projectName": "AccountingIntegration.Api",
+        "projectPath": "D:\\ForGit\\AccountingIntegration\\AccountingIntegration.Api\\AccountingIntegration.Api.csproj",
+        "packagesPath": "C:\\Users\\Dev3\\.nuget\\packages\\",
+        "outputPath": "D:\\ForGit\\AccountingIntegration\\AccountingIntegration.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dev3\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\ForGit\\AccountingIntegration\\AccountingIntegration.Application\\AccountingIntegration.Application.csproj": {
+                "projectPath": "D:\\ForGit\\AccountingIntegration\\AccountingIntegration.Application\\AccountingIntegration.Application.csproj"
+              },
+              "D:\\ForGit\\AccountingIntegration\\AccountingIntegration.Infrastructure\\AccountingIntegration.Infrastructure.csproj": {
+                "projectPath": "D:\\ForGit\\AccountingIntegration\\AccountingIntegration.Infrastructure\\AccountingIntegration.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.105.0, )"
+            },
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.8.23, )"
+            },
+            "Hangfire.InMemory": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Microsoft.AspNetCore.Localization": {
+              "target": "Package",
+              "version": "[2.3.10, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.27, )"
+            },
+            "Microsoft.Extensions.Localization": {
+              "target": "Package",
+              "version": "[10.0.8, )"
+            },
+            "PdfPig": {
+              "target": "Package",
+              "version": "[0.1.14, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            },
+            "Tesseract": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.421/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ForGit\\AccountingIntegration\\AccountingIntegration.Application\\AccountingIntegration.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ForGit\\AccountingIntegration\\AccountingIntegration.Application\\AccountingIntegration.Application.csproj",
+        "projectName": "AccountingIntegration.Application",
+        "projectPath": "D:\\ForGit\\AccountingIntegration\\AccountingIntegration.Application\\AccountingIntegration.Application.csproj",
+        "packagesPath": "C:\\Users\\Dev3\\.nuget\\packages\\",
+        "outputPath": "D:\\ForGit\\AccountingIntegration\\AccountingIntegration.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dev3\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\ForGit\\AccountingIntegration\\AccountingIntegration.Domain\\AccountingIntegration.Domain.csproj": {
+                "projectPath": "D:\\ForGit\\AccountingIntegration\\AccountingIntegration.Domain\\AccountingIntegration.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.421/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ForGit\\AccountingIntegration\\AccountingIntegration.Domain\\AccountingIntegration.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ForGit\\AccountingIntegration\\AccountingIntegration.Domain\\AccountingIntegration.Domain.csproj",
+        "projectName": "AccountingIntegration.Domain",
+        "projectPath": "D:\\ForGit\\AccountingIntegration\\AccountingIntegration.Domain\\AccountingIntegration.Domain.csproj",
+        "packagesPath": "C:\\Users\\Dev3\\.nuget\\packages\\",
+        "outputPath": "D:\\ForGit\\AccountingIntegration\\AccountingIntegration.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dev3\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.421/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ForGit\\AccountingIntegration\\AccountingIntegration.Infrastructure\\AccountingIntegration.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ForGit\\AccountingIntegration\\AccountingIntegration.Infrastructure\\AccountingIntegration.Infrastructure.csproj",
+        "projectName": "AccountingIntegration.Infrastructure",
+        "projectPath": "D:\\ForGit\\AccountingIntegration\\AccountingIntegration.Infrastructure\\AccountingIntegration.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Dev3\\.nuget\\packages\\",
+        "outputPath": "D:\\ForGit\\AccountingIntegration\\AccountingIntegration.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dev3\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\ForGit\\AccountingIntegration\\AccountingIntegration.Application\\AccountingIntegration.Application.csproj": {
+                "projectPath": "D:\\ForGit\\AccountingIntegration\\AccountingIntegration.Application\\AccountingIntegration.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.421/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

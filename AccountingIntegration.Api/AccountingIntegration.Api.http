@@ -1,0 +1,6 @@
+@AccountingIntegration.Api_HostAddress = http://localhost:5197
+
+GET {{AccountingIntegration.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

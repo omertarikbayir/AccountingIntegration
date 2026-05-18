@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "iP7GiyErLKsYDgjMUNG+I/ApJLuiwmp6agO8waDMrng=",
+  "Source": "AccountingIntegration.Api",
+  "BasePath": "_content/AccountingIntegration.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
